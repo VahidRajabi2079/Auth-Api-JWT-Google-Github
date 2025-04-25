@@ -1,0 +1,70 @@
+.env
+db.sqlite3
+Pipfile.lock
+# ───────── Python ─────────
+**/__pycache__/
+**/*.py[cod]
+*$py.class
+
+# ───────── Django ─────────
+**/*.log
+*.pot
+db.sqlite3
+**/media/
+staticfiles/
+local_settings.py
+
+# ───────── Pipenv ─────────
+# نگه دار: Pipfile
+# اختیاری: Pipfile.lock
+Pipfile.lock
+
+# ───────── Environment / Secrets ─────────
+**/.env
+*.env
+
+# ───────── Virtualenvs ─────────
+venv/
+.venv/
+env/
+ENV/
+
+# ───────── Docker ─────────
+*.pid
+*.seed
+*.tar
+*.bak
+*.backup
+docker-compose.override.yml
+.docker/
+volumes/
+**/docker-compose*.local.yml
+.devcontainer/
+
+# ───────── IDEs and Editors ─────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ───────── OS Files ─────────
+**/.DS_Store
+Thumbs.db
+
+# ───────── Coverage & Testing ─────────
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.pytest_cache/
+.tox/
+.testmondata
+junit.xml
+
+# ───────── Type Checking ─────────
+.mypy_cache/
+.dmypy.json
+.pyre/
