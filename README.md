@@ -99,8 +99,9 @@ DJOSER = {",
 }
 ```
 برای تست آدرس زیر رو وارد کد 
-> Github: http://localhost:8000/auth/o/github/?redirect_uri=http://localhost:8000/auth/o/github/
->Google: http://localhost:8000/auth/o/google-oauth2/?redirect_uri=http://localhost:8000/auth/o/google-oauth2/
+Github: http://localhost:8000/auth/o/github/?redirect_uri=http://localhost:8000/auth/o/github/
+
+Google: http://localhost:8000/auth/o/google-oauth2/?redirect_uri=http://localhost:8000/auth/o/google-oauth2/
 
 
 
