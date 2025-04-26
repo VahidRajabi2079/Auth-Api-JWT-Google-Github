@@ -3,13 +3,13 @@ from django.core.exceptions import ValidationError
 from django.core.validators import validate_email
 
 
-
 class UserManager(BaseUserManager):
-    def email_validator(self,email):
+    def email_validator(self, email):
         try:
             validate_email(email)
         except ValidationError:
             raise ValueError(_("please enter a valid email address"))
+
     def create_user(self, email, password=None, **extra_fields):
         if not email:
             raise ValueError("Te Email field must be set")
